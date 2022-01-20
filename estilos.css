@@ -1,8 +1,63 @@
 *{
-    background-color: yellow;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: lightgray;
+    padding: 15px;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    margin-bottom: 20px;
 }
 
 img{
     width: 250px;
 }
+
+section{
+    padding: 15px;
+}
+
+.schema{
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+audio{
+    margin-bottom: 15px;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: grey;
+}
+
+.lyrics p{
+    font-size: 15px;
+    color: grey;
+    line-height: 20px;
+}
+
+.lyrics p span{
+    font-style: italic;
+}
+
+.lyrics p:nth-child(6){
+    font-weight: bold;
+}
+
+.lyrics p:nth-child(9){
+    font-weight: bold;
+}
+
+.lyrics p:nth-child(11){
+    font-weight: bold;
+}
+
+
